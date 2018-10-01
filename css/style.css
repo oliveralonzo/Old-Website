@@ -1,0 +1,88 @@
+html {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.content {
+	width: 100%;
+	height: 100vh;
+	/* background: url(../imgs/background.png) #000 no-repeat center center fixed;
+	background-size: cover; */
+	background-color: #e3e3e3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.imageBox {
+	width: 20%;
+}
+
+.imageBox>img {
+	width: 100%;
+}
+
+.name>h1 {
+	padding: 0;
+	margin: 0;
+	font-weight: 100;
+	font-size: 5rem;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
+
+.links>li {
+	list-style: none;
+	font-weight: 100;
+	padding: 1rem;
+	font-size: 2rem;
+	white-space: nowrap;
+}
+
+.links>li:hover {
+	opacity: 0.3;
+}
+
+@media (max-width: 400px) and (orientation:portrait) {
+	.imageBox {
+		width: 70%;
+	}
+
+	.name>h1 {
+		font-size: 2rem;
+	}
+
+	.links>li {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 900px) and (orientation:portrait) {
+	.imageBox {
+		width: 50%;
+	}
+
+	.name>h1 {
+		font-size: 3rem;
+	}
+
+	.links>li {
+		font-size: 1.5rem;
+	}
+
+}
