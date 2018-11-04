@@ -1,0 +1,1388 @@
+.navigation .navigation-menu{
+	position: relative;
+	z-index: 1;
+}
+/*
+	404 page css
+ */
+ .page-not-found {
+	text-align:center !important;
+ }
+
+ .page-not-found  p {
+	margin:0px 15px;
+}
+
+.page-not-found .btn-first {
+	margin-right:10px;
+}
+
+.page-not-found .btn-last {
+	margin-left:10px;
+}
+
+.page-not-found .btn-block {
+   margin:30px 0 0 0;
+}
+
+  .pnf-title {
+	  font-size: 56px;
+	  font-family: "Supernettcn";
+	  letter-spacing: 1px;
+	  margin: 0px;
+	  text-transform: uppercase;
+	  font-weight: 300;
+	  display: inline-block;
+	  padding: 0px;
+  }
+
+  .acenter {
+		text-align:center !important;
+	}
+
+
+/*
+ All collection page css
+ */
+
+ .collections-main{
+	width:1040px;
+	float:none;
+	margin:0 auto;
+}
+
+.page_bg_css .recipes-container {
+   /*background: #fff none repeat scroll 0 0;*/
+    max-width: 100%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.page_bg_css .recipes-container .recipes-list-main .gradient {
+    bottom: 1px;
+}
+
+.page_bg_css .recipes-container .recipes-list-main img.thumb {
+   height: 177px;
+}
+
+.page_bg_css .recipes-container .recipes-list-main ul li h3 {
+	bottom: 15px;
+}
+#post-5754 #content.content--wide{
+width:100%;
+}
+.newsitemap {
+    float: left;
+width:33%;
+}
+
+.sitemap-search #searchform {
+    margin: 0 auto;
+    width: 50%;
+}
+.sitemap-search #searchform input[type="text"] {
+    display: inline-block;
+     float: none;
+    width: 70%;
+}
+
+#html5-watermark {
+    display: none !important;
+}
+
+.site-bg .csitemap li > a {
+	/*border: 1px solid #ddd;*/
+	clear: both;
+	color: #231f20;
+	display: block;
+	font-size: 20px;
+	padding: 0px;
+}
+.site-bg .csitemap li a {
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+ color: #231f20;
+}
+ul.csitemap {
+    overflow: hidden;
+}
+
+.csitemap li .collection-menu {
+	margin-left: 20px;
+}
+
+.csitemap li .collection-menu li {
+  /*padding:5px;*/
+}
+.csitemap li .collection-menu li a {
+	font-size: 14px;
+
+}
+.csitemap li.menu-cat-title a {
+    font-size: 16px;
+    font-weight: 600;
+
+    padding: 15px 0 0 0;
+}
+
+.csitemap li a:active, .csitemap li a:focus, .csitemap li a:hover {
+    color: #FADB6E; }
+  .csitemap li a:active, .csitemap li a:focus {
+    outline: none; }
+
+.site-bg .subnav {
+	float: left;
+}
+
+.csitemap > li {
+	float: left;
+	margin-right: 2%;
+	width: 48%;
+	padding:10px 0;
+}
+
+.sitemap-search {
+	clear: both;
+	display: inline-block;
+	float: none;
+	margin-top: 40px;
+	width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.scroll-wrap-home {
+    background: #fff none repeat scroll 0 0;
+	position:relative;
+}
+
+.scroll-wrap-home .close {
+    background-image: url("../images/btn-close-bg.png");
+    color: #fff;
+    display: block;
+    font-family: Supernettcn;
+    height: 31px;
+    position: absolute;
+    right: -66px;
+    text-align: center;
+    top: -76px;
+    width: 30px;
+}
+
+.scroll-wrap-home .close span {
+    display: block;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+.easter .carousel .carousel-caption {
+	position:relative !important;
+
+}
+
+
+#greeting h3 {
+	bottom:50px;
+	-o-transition:none !important;
+	-ms-transition:none !important;
+	-moz-transition:none !important;
+	-webkit-transition:none !important;
+	transition:none !important;
+	}
+
+#greeting.item:hover h3 {
+    transform: translateY(0px);
+	-o-transition:none !important;
+	-ms-transition:none !important;
+	-moz-transition:none !important;
+	-webkit-transition:none !important;
+	transition:none !important;
+}
+.btn.btn--wide.browse {
+    display: none;
+}
+
+.header-right .wp-social-login-provider-list img {
+	height: 16px;
+	width: 16px;
+}
+#why-i-farm .video .col-lg-4		{ text-align:center }
+#why-i-farm .video .col-lg-4 p		{ margin:10px 0 30px 0 !important }
+#why-i-farm .video .col-lg-4 {
+	display: inline-block;
+	padding: 0;
+	width: 33%;
+}
+.why-i-farm {
+    margin-bottom: 100px;
+}
+.video .img-responsive  {
+	position:relative;
+	z-index:0
+}
+.video .col-lg-4 {
+    position: relative;
+}
+.video .icon {
+    left: 36%;
+    position: absolute;
+    top: 21%;
+    z-index: 100;
+	-webkit-transform: translate(36%, 21% );
+	-ms-transform: translate(36%, 21%);
+	transform: translate(36%, 21%);
+}
+
+.title-dotted .caption.bottom h4 {
+	background-image: url("../fonts/dots-divider.svg");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.search.wi50 {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.didyoumean.wi50 {
+	background: #f5f5f5 none repeat scroll 0 0;
+	border-top: 5px solid #f7cc3e;
+	margin: 0 auto !important;
+	padding: 15px;
+	width: 50%;
+}
+
+.wrap_main {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.didyoumean.wi50 > a {
+	clear: both;
+	display: inline-block;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.developer_center {
+	text-align: center;
+}
+
+.search-result article {
+	padding: 25px 0px !important
+}
+.search-result article  .blog-container {
+	border:2px solid #e0e0da;
+	/*width:1200px !important;*/
+	background:#fff;
+	margin:0 auto !important;
+	overflow:hidden;
+	padding:20px !important;
+}
+
+.search-result article:nth-child(2n) {
+	background:#fff !important;
+}
+.search-result article  .blog-container:hover {
+	background:#f5f5f5;
+}
+
+.search-result article .blog-container .snippet h2 a {
+	font-size:26px !important;
+}
+
+.search-result article .blog-container .snippet h2 {
+	margin:0 0 10px !important;
+	font-size:26px !important;
+}
+.search-result article .blog-container .snippet {
+	padding-top:0px !important;
+}
+
+.search-result article .blog-container .thumb {
+	width:315px !important;
+}
+
+.search-result article .blog-container .thumb img {
+	border:5px solid #e1e1e1;
+}
+
+.pleasedontshowme .btn.btn-first {
+	margin-right: 20px;
+}
+
+.pleasedontshowme .btn.btn-last {
+	margin-left: 20px;
+}
+
+.wi100 .wi50 {
+	float: left;
+	margin-right: 1%;
+	width: 48%;
+}
+
+.new_verticle_videos .col-lg-3 {
+	float: left;
+	margin-right: 2%;
+	min-height: 210px;
+	position: relative;
+	text-align: center;
+	width: 48%;
+}
+
+.video.new_verticle_videos .icon {
+    left: 35%;
+    position: absolute;
+    top: 20%;
+    transform: translate(36%, 21%);
+    width: 41px;
+    z-index: 100;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.aright {
+	text-align:right;
+}
+
+.aleft {
+	text-align:left;
+}
+
+.acenter {
+	text-align:center;
+}
+
+.responsive_css_dev {
+	bottom: 60px;
+	position: absolute;
+}
+
+/* 15-04-2016
+------------------------------------------------- */
+.switcher {
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 10pt;
+    line-height: 16px;
+    margin-left: 25px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-align: left;
+    width: 163px;
+}
+
+/* 26-04-2016
+---------------------------------------------------- */
+#js-navigation-menu .google_translate {
+    display: none;
+}
+.switcher .option {
+    position: absolute !important;
+    width: 91px !important;
+}
+body > footer .footer-nav a {
+    text-transform: capitalize;
+}
+/*
+Media Queries
+-------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+
+	.easter .dev_easter_css {
+		width: 970px;
+	}
+
+	.dev_easter_css .col-lg-4 a img.img-responsive {
+		min-height: auto;
+		height: 250px;
+	}
+
+}
+
+@media only screen and (max-width: 1140px) {
+
+	.easter .decorating .dev_easter_css .bottom {
+		bottom: 28px !important;
+	}
+
+	.easter .decorating .dev_easter_css .video .bottom {
+		bottom: 0px !important;
+	}
+
+}
+@media only screen and (max-width: 1024px) {
+	.home-tab-content .scroll-wrap-home .close{
+		display:none;
+	}
+
+	.wi100 {
+		margin: 0 auto;
+		text-align: center;
+		width: 95%;
+	}
+
+	#home-tabs-container{
+		max-width: 640px;
+		margin:0 auto !important;
+	}
+	.home-tab-content .home-social ul li{
+		width:inherit !important;
+	}
+
+	.navigation nav ul li.nav-link {
+		display: block;
+	}
+
+	.navigation nav ul li.nav-link a {
+		padding: 10px 5px;
+	}
+	#js-navigation-menu .google_translate {
+		display: block;
+		text-align: right;
+	}
+}
+@media only screen and (max-width: 980px) {
+
+	.video .col-lg-4 {
+		width: 49%;
+	}
+	.html5lightbox {
+		display: block;
+	}
+	#why-i-farm .row.video {
+		margin: 0 auto;
+		text-align: center;
+	}
+	#why-i-farm .video .col-lg-4 {
+		display: inline-block;
+		padding: 0;
+		width: 46%;
+	}
+	.recipe-list-home{
+		max-width: inherit;
+	}
+
+	.dev_easter_css .col-lg-4 a img.img-responsive {
+		min-height: auto;
+		height: auto;
+	}
+
+	.easter .dev_easter_css {
+		width: 750px;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+	.wi100 {
+		margin: 0 auto;
+		text-align: center;
+		width: 70%;
+	}
+
+	.wi100 .wi50 {
+		float: left;
+		margin-right: 1%;
+		text-align: center;
+		width: 98%;
+	}
+
+	.new_verticle_videos .col-lg-3 {
+		display: inline-block;
+		min-height: 230px;
+	}
+
+	.new_verticle_videos .col-lg-3 img.img-responsive {
+		width: 100%;
+	}
+
+	.wi100 .wi50 h1.aright {
+		text-align: center;
+	}
+
+	.responsive_css_dev {
+		bottom: 0px;
+		position: relative;
+	}
+
+}
+
+@media only screen and (max-width: 751px) {
+
+	.dev_easter_css .col-lg-4 a img.img-responsive {
+		height: auto;
+		min-height: auto;
+	}
+
+	.easter .dev_easter_css {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.gallery .row {
+		text-align: center;
+	}
+
+
+	.gallery .row .col-lg-2 {
+		padding: 0;
+		width: 155px;
+	}
+
+	.gallery .row .col-lg-2 {
+		display: inline-block;
+		float: none;
+		text-align: center;
+	}
+	.gallery .btn {
+		display: table !important;
+		padding: 31px 50px !important;
+	}
+
+
+
+
+}
+
+@media only screen and (max-width: 670px) {
+
+	.new_verticle_videos .col-lg-3 {
+		min-height: 200px;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+
+	.easter .decorating .container .col-lg-4 {
+		margin: 30px auto !important;
+	}
+
+	.dev_easter_css .col-lg-4 a img.img-responsive {
+		min-height: 100px;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.paddtb .video {
+		text-align: center;
+	}
+
+	.paddtb .video .col-lg-4 {
+		display: inline-block;
+		float: none;
+		margin: 0 auto 20px;
+		padding: 0;
+		width: auto;
+	}
+
+	.social {
+		float: none;
+		width: 100%;
+	}
+
+	header .col-lg-5 {
+		text-align: center;
+		width: 100%;
+	}
+
+	header .logo {
+		float: none;
+	}
+
+	.csitemap > li {
+		float:none;
+		width:96%;
+		padding:0 2%;
+	}
+
+	.sitemap-search #searchform{
+		width:90%;
+	}
+
+	.sitemap-search #searchform input[type="text"] {
+		float: left;
+		width: 70%;
+	}
+
+	.sitemap-search #searchform input[type="submit"] {
+		float: right;
+		width: 28%;
+		margin-left: 2%;
+	}
+	.video .col-lg-4 {
+		width: 100%;
+	}
+	#why-i-farm .video .col-lg-4 {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 540px) {
+	.new_verticle_videos .col-lg-3 {
+		float: none;
+		text-align: center;
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 485px) {
+
+	.col-lg-4.video .icon {
+		width: auto;
+	}
+
+	.new_verticle_videos .col-lg-3 {
+		min-height: 180px;
+		width: 100%;
+	}
+
+	.video.new_verticle_videos .icon {
+		left: 40%;
+		top: 30%;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+ .video .icon {
+	 top:30% !important;
+ }
+}
+
+@media only screen and (max-width: 454px) {
+
+	body > .footer .btn {
+		margin: 10px 0;
+	}
+
+	.carousel .carousel-caption h2 {
+		font-size: 24px;
+		line-height: normal;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	.newsstand .row .col-lg-5 > img {
+		width: 100%;
+	}
+
+	.video.new_verticle_videos .icon {
+		left: 35%;
+		top: 23%;
+	}
+
+	.video .icon {
+	 top:20% !important;
+	}
+
+}
+
+@media only screen and (max-width: 380px) {
+	.video .icon {
+	 top:8% !important;
+	}
+}
+@media only screen and (max-width: 360px) {
+
+	.paddtb .video .col-lg-4 img.img-responsive {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.newsstand .row .col-lg-6.pull-right .paddtb .btn.btn-twitter	{
+		padding: 12px;
+		width: 90%;
+	}
+
+        .sitemap-search #searchform{
+            width:100%;
+        }
+
+	.carousel .carousel-caption .btn, .btnround{
+		float: left;
+		width: 100%;
+	}
+}
+
+
+.seasonal-sitemap-link:hover {
+	color: black !important;
+}
+
+.farmer-details-container p {
+    font-size: 15px !important;
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+  .page-break h3 {
+    page-break-before: always;
+  }
+}
+
+.col-lg-3 {
+    margin-bottom: 20px;
+}
+
+
+.responsive-youtube {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.27198%;
+}
+.responsive-youtube iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+hr.divider { margin: 2.5em 0; }
+.intro-img {
+	display: block;
+	margin: 0 auto 1em;
+}
+h1 + .intro-img {
+	margin-top: 1em;
+}
+ul.list, ol.list {
+	margin-left: 40px;
+	margin-bottom: .5em;
+}
+ul.list { list-style-type: disc; }
+ol.list { list-style-type: decimal; }
+ul.list + p, ol.list + p { margin-top: 2em; }
+/* p's bottom-margin is 2em. Is a list is following <p> there is big gap between them. This rule compensates this. */
+p + ul.list, p + ol.list { margin-top: -1.5em; }
+
+ul.list-egg-icon, ol.list-egg-icon {
+	list-style-type: none;
+	margin-left: 20px;
+}
+ul.list-egg-icon > li:before, ol.list-egg-icon > li:before {
+	content: '';
+	display: inline-block;
+	width: 18px;
+	height: 25px;
+	background: url(../images/icon-egg.png) no-repeat;
+	background-size: 14px;
+	margin-right: 7px;
+	vertical-align: middle;
+}
+
+.divided-sections > .section {
+	display: block;
+	padding: 0 4em 3em;
+	margin-bottom: 3em;
+	border-bottom: 1px solid #c3c2b0;
+}
+.divided-sections > .section:last-of-type { border-bottom: none; }
+.divided-sections.with-headers > .section { margin-bottom: 2.3em; }
+.with-headers header { margin-bottom: 1em; }
+.with-headers header h2 { margin: 0; }
+.divided-sections > .section > footer {
+	/* 20px is the same size as an intro on a page. */
+	font-size: 20px;
+	margin-top: 1em;
+}
+.cards.match-divided-sections {
+	padding-left: 2.7em;
+	padding-right: 2.7em;
+}
+
+
+/**
+ * Categories list (tiles)
+ * --------------------------------------------------------------
+ */
+@media (min-width:64.063em) {
+	.category-list {
+		width: auto;
+		max-width: 800px;
+		float: none;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+.category-list ul {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.category-list .box {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+	margin-right: 2.5%;
+	margin-bottom: 1.5em;
+}
+@media (max-width:64.063em) {
+	.category-list .box:nth-of-type(2n) { margin-right: 0; }
+}
+.category-list .box:last-of-type {
+	margin-right: 0;
+}
+
+@media (min-width:64.063em) {
+	.category-list .box { width: 22.75%; }
+	.category-list .box:nth-of-type(4n),
+	.category-list .box:last-of-type {
+		margin-right: 0;
+	}
+}
+.category-list .box h3 {
+	color: #777;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 8px 0 12px;
+	margin: 0 5px;
+}
+.category-list .box img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px 5px 0 0;
+}
+/* END of Categories list (tiles) */
+
+
+/**
+ * YOAST breadcrumbs
+ */
+.breadcrumbs p { margin: 0 !important; }
+.breadcrumbs span { margin: 0 !important; }
+.breadcrumbs .breadcrumb_last, .breadcrumbs a { margin: 0 .5em !important; }
+
+/* Fix for WordPress bar to not interrupt with the site's header. */
+.customize-support .navigation, .customize-support .headerlogo { margin-top: 32px; }
+
+.btn.pdf {
+	line-height: 25px; /* The height of the PDF icon */
+	padding-top: .55em;
+	padding-bottom: .55em;
+	padding-left: .8em;
+	margin-bottom: 20px; /* @todo: remove from here */
+}
+.btn.pdf:before {
+	width: 25px;
+	height: 25px;
+	float: left;
+	content: '';
+	margin-right: .3em;
+	background: url('../images/icon-pdf.png');
+}
+
+/**
+ * Sticky header
+ * By Pavlo Tkachov, June 2017
+ */
+body { padding-top: 71px; }
+@media (max-width: 1330px) {
+    body { padding-top: 63px; }
+}
+@media (max-width: 1024px) {
+    body { padding-top: 80px; }
+}
+.navigation li.nav-link a,
+.header-right,
+.headerlogo,
+.subnav,
+.subnav ul li a {
+	transition: .3s !important;
+}
+.navigation, .subnav {
+	position: fixed;
+	z-index: 9991;
+}
+.navigation {
+	width: 100%;
+	top: 0;
+}
+.sticky-header .subnav {
+	margin-top: -25px;
+	opacity: .9;
+}
+.sticky-header .subnav ul li a {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+@media (min-width: 64.063em) {
+	.sticky-header .headerlogo {
+		width: 84px;
+		height: 84px;
+		background-size: 84px 84px;
+	}
+	.sticky-header .navigation li.nav-link a {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	.sticky-header .header-right {padding-top: 8px; }
+}
+@media (min-width: 1024px) {
+	.subnav ~ .main { padding-top: 96px !important; }
+}
+@media (max-width: 1085px) {
+	.subnav { margin-top: -13px !important; }
+}
+@media (max-width: 1300px) {
+	.subnav { margin-top: -10px !important; }
+	.sticky-header .subnav { margin-top: -34px !important; }
+}
+/* END of Sticky header  */
+
+
+/**
+ * Back to School - Media Planet
+ * By Pavlo Tkachov, July, 2017
+ */
+@media (max-width: 1024px) {
+	#media-planet .main { padding-top: 96px; }
+}
+#media-planet .intro { margin-bottom: 1em; }
+#media-planet .sponsored > span {
+	vertical-align: middle;
+}
+#media-planet .sponsored {
+	font-size: 1.4em;
+	line-height: 1.2em;
+	padding: .5em;
+	margin-top: 1.4em;
+	margin-bottom: .8em;
+	border: 1px solid #d9d9d2;
+}
+#media-planet .sponsored img {
+	margin-left: .5em;
+	vertical-align: middle;
+}
+#media-planet p { margin-bottom: 1.3em; }
+#media-planet h2 { margin: 10px 0 10px; }
+#media-planet blockquote {
+	float: left;
+	/*position: relative;*/
+	/*left: -30px;*/
+	font-size: 1.4em;
+	line-height: 1.2;
+	color: #f7cc3e;
+	text-align: left;
+	margin: 0 2em 0 0;
+}
+#media-planet .responsive-youtube { margin-bottom: 1.3em; }
+
+
+/*
+ * "Read more" dropdown.
+ */
+.read-more-state { display: none !important; }
+.read-more-target {
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height .7s cubic-bezier(0, 1, 0, 1); /* Out */
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+	max-height: 999em;
+	transition: max-height 3s ease-in-out; /* In */
+}
+.read-more-state ~ .read-more-trigger:before { content: 'READ MORE'; }
+.read-more-state:checked ~ .read-more-trigger:before { content: 'READ LESS'; }
+.read-more-trigger {
+	cursor: pointer;
+	display: inline-block;
+	padding: .1em .6em;
+	border: 1px solid #ddd;
+	border-radius: .25em;
+}
+/* END of "Read more" dropdown */
+
+
+/**
+ * GUSTO EVENT
+ * Pavlo Tkachov, July 18, 2017
+ */
+#gusto { padding-top: 1.5em; }
+#gusto .intro h2 {
+	font-family: Supernettcn;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0 0 2em; /* Default */
+}
+#gusto .intro > div {
+	float: none;
+	margin: 0 auto;
+}
+#gusto .intro > div p { text-align: justify; }
+@media (min-width: 64.063em) {
+	#gusto .intro > div  { width: 832px; }
+}
+#gusto .read-more-trigger {
+	position: relative;
+	top: -20px;
+}
+#gusto .read-more-target > p:first-child { margin-top: 0; }
+
+/* Chefs page */
+#gusto .chef-photo {
+	float: left;
+	margin: .6em 2em 1em 0;
+}
+#gusto .chef-name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#gusto hr { margin: 2.5em 0; }
+@media (max-width: 520px) {
+	#gusto .chef-photo {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+}
+/* END of Gusto Event */
+
+
+/**
+ * Generic inline-block grid
+ */
+.cards {
+	margin: 30px 0 0;
+}
+.card {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+.farmer-grid .card, .farmer-grid .card > a { font-size: 0; }
+.cards.col-2 .card {
+	width: 46%;
+	margin: 0 1.7% 3.6%;
+}
+.cards.col-3 .card {
+	width: 30.2%;
+	margin: 0 1.2% 2%;
+}
+.cards.col-4 .card {
+	width: 22.6%;
+	margin: 0 1% 1.7%;
+}
+.cards.col-5 .card {
+	width: 18.6%;
+	margin: 0 .5% 1%;
+}
+.card img {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+/* font-size: 0 to avoid unexpected margins between the cards. */
+.cards.no-margin { font-size: 0; }
+.cards.no-margin .card { margin: 0 !important; }
+.cards.no-margin.col-2 .card { width: 50%; }
+.cards.no-margin.col-3 .card { width: calc(100% / 3); }
+.cards.no-margin.col-4 .card { width: 25%; }
+.cards.no-margin.col-5 .card { width: calc(100% / 5); }
+
+@media (max-width:991px) {
+	/* Becomes .col-3 */
+	.cards.col-5 .card, .cards.col-4 .card {
+		width: 30.2%;
+		margin: 0 1.2% 2%;
+	}
+    .cards.no-margin.col-5 .card, .cards.no-margin.col-4 .card { width: calc(100% / 3); }
+
+	/* Becomes .col-2 */
+	.cards.col-3 .card {
+		width: 46%;
+		margin: 0 1.7% 3.6%;
+	}
+    .cards.no-margin.col-3 .card { width: 50%; }
+}
+@media (max-width: 640px) {
+	/* Becomes .col-2 */
+	.cards.col-5 .card, .cards.col-4 .card {
+		width: 46%;
+		margin: 0 1.7% 3.6%;
+	}
+    .cards.no-margin.col-5 .card, .cards.no-margin.col-4 .card { width: 50%; }
+
+	.cards.col-2 .card, .cards.col-3 .card { width: 100%; }
+}
+@media (max-width: 454px) {
+	.cards { text-align: center; }
+	.cards.col-5 .card, .cards.col-4 .card { width: 100% !important; }
+}
+
+
+blockquote.styled {
+	font-style: italic;
+	margin: 1em 0;
+	padding: .5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.styled:before, blockquote.styled:after {
+	position: absolute;
+	line-height: 0;
+}
+blockquote.styled:before {
+	content: open-quote;
+	font-size: 4em;
+	/*line-height: .1em;*/
+	margin-top: .26em;
+	margin-left: -.6em;
+	/*margin-right: .2em;*/
+	/*vertical-align: -.4em;*/
+}
+blockquote.styled:after {
+	content: close-quote;
+	font-size: 4em;
+	/*line-height: .1em;*/
+	margin-top: .54em;
+	/*margin-left: -.1em;*/
+	/*vertical-align: -.6em;*/
+}
+
+
+.magnific-popup img { transition: transform 0.5s; }
+.magnific-popup img:hover { transform: scale(1.05); }
+.mfp-bg, .mfp-wrap { z-index: 999999 !important; }
+
+
+iframe[name="google_conversion_frame"] { display: none; }
+
+
+.sources ol {
+	font-size: .9em;
+	padding-left: 1em;
+	list-style-type: decimal;
+}
+.sources h6 {
+	/* The "Sources" headline */
+	margin-bottom: .5em;
+}
+
+/*
+ * Video and image on mobile.
+ * This class is applied to the container that has direct <video> and <img> childs.
+ * The video is shown on desktops and gets replaced with the image on mobile view.
+ * --------------------------------------------------------------
+ */
+.video-and-image-on-mobile > img { display: none; }
+@media only screen and (max-width: 768px) {
+	.video-and-image-on-mobile > img { display: initial; }
+	.video-and-image-on-mobile > video { display: none; }
+}
+/* END of "Video and image on mobile." */
+
+
+/**
+ * Back to School - Incredible Kids
+ */
+.incredible-kid {
+	clear: left;
+	margin-bottom: 2em;
+}
+.incredible-kid .decorative-picture {
+	margin: -1.7em auto -3.5em;
+	display: block;
+}
+.incredible-kid blockquote.styled {
+	font-size: 1.4em;
+	text-align: center;
+	padding: 1.5em 3em;
+	background-color: #f5f5f5;
+}
+.incredible-kid .facts {
+	float: left;
+	width: 64%;
+	padding-left: 2em;
+	margin-top: 1.5em;
+}
+.incredible-kid h2 {
+	font-size: 1.8em;
+	padding: 0 .5em .5em 0;
+	margin: 0 0 .5em;
+}
+.incredible-kid .facts > section {
+	margin-bottom: .5em;
+}
+.incredible-kid .facts header {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.incredible-kid .facts ul {
+	list-style-type: disc;
+	margin-left: 2.6em;
+}
+.incredible-kid .photo {
+	float: right;
+	width: 36%;
+	text-align: right;
+	margin-top: 1.5em;
+}
+
+@media (max-width: 991px) {
+	.incredible-kid .facts {
+		float: none;
+		padding-left: 0;
+		width: auto;
+	}
+	.incredible-kid .photo {
+		float: none;
+		width: auto;
+		text-align: center;
+	}
+}
+@media (max-width: 640px) {
+	.incredible-kid blockquote.styled { font-size: 1em; }
+	.incredible-kid .decorative-picture {
+		width: 20%;
+		margin-bottom: -2.6em;
+	}
+}
+/* END of Back to School - Incredible Kids */
+
+
+
+/* --------------------------------------------------------------
+ * Vertical timeline
+ * --------------------------------------------------------------
+ */
+/**
+ * position: relative fixes positioning of the icons next to the content blocks.
+ * https://tympanus.net/codrops/2013/05/02/vertical-timeline/comment-page-2/#comment-454637
+ */
+.cbp_tmtimeline > li {
+	position: relative;
+	margin-bottom: 3%;
+}
+.cbp_tmtimeline > li .cbp_tmtime {
+	padding-right: 115px;
+	margin-top: -16px;
+}
+
+.cbp_tmtimeline:before {
+	background-color: #ccc !important;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+	color: #feb648 !important;
+}
+.cbp_tmtimeline > li .cbp_tmicon {
+	background-color: #feb648 !important;
+	box-shadow: 0 0 0 8px #ccc !important;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel {
+	background-color: #ccc !important;
+	overflow: hidden;
+}
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	border-right-color: #ccc !important;
+}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after{
+	border-right-color: #feb648 !important;
+}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	background-color: #feb648 !important;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel p:not(:last-child) { margin-bottom: 1.5em; }
+.cbp_tmtimeline > li .cbp_tmlabel p:last-child { margin-bottom: 0; }
+
+
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline > li .cbp_tmicon { display: none; }
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		border-right-color: transparent !important;
+		border-bottom-color: #ccc !important;
+	}
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after{
+		border-right-color: transparent !important;
+		border-bottom-color: #feb648 !important;
+	}
+}
+
+
+.left-aligned-image {
+	float: left;
+	font-size: 0;
+	margin-right: 1rem;
+}
+/* END of "Vertical timeline" */
+
+
+
+/* --------------------------------------------------------------
+ * Easter Egg Safety
+ * --------------------------------------------------------------
+ */
+.easter .consumption .es-icon {
+	max-width: 65px;
+}
+.easter .consumption .list-group .col-lg-6 {
+	float: left;
+	width: 50%;
+	margin-bottom: 30px;
+}
+.easter .list-group {
+	overflow: hidden;
+}
+.easter dl {
+	margin-bottom: 0;
+}
+.easter .col-lg-2 {
+	float: left;
+	margin-top: 0;
+	width: 80px; /* 65px (icon's width) + 15px */
+}
+
+
+@media only screen and (max-width: 980px) {
+	.easter .consumption .list-group .col-lg-6
+	{
+		width:100%;
+	}
+}
+/* END of "Easter Egg Safety" */
+
+
+.testingfont {
+	font-family: "Tungsten A", "Tungsten B";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 65px;
+	text-transform: uppercase;
+}
