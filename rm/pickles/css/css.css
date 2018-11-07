@@ -11,10 +11,11 @@
   src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(../fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
 }
 
-.karma-slot--square-container.karma-slot--desktop-only {
-  max-width: 100%;
+.karma-slot--square-container.karma-slot--desktop-only, .karma-slot--square-container.karma-slot--desktop-only > a{
+  width: 100%;
 }
 
-.karma-slot--square-container.karma-slot--desktop-only > img {
+.karma-slot--square-container.karma-slot--desktop-only img
+ {
   width: 100%;
 }

@@ -16,7 +16,7 @@ span.dropcap {
 	float: left;
 }
 
-.placed-ad {
+.placed-ad, .placed-ad > a {
 	max-width: 100%;
 }
 
