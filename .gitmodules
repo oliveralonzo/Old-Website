@@ -1,0 +1,3 @@
+[submodule "search-prototype"]
+	path = search-prototype
+	url = https://github.com/oliveralonzo/search-prototype.git
