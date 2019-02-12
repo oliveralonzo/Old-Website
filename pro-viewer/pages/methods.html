@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <title>Pro-viewer</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../js/main.js"> </script>
+    <!-- Start of W3 schools smooth scrolling -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 1000, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <!-- End of W3 schools smooth scrolling -->
+  </head>
+  <body>
+    <section class="landingSection" id="theLand">
+      <div class="menubar">
+        <div class="logo" id="smallLogo">
+          <a href="../index.html"> <img src="../imgs/logo_Orange.svg" alt="logo"> </a>
+        </div>
+        <ul class="links">
+          <li><a href="about.html"> About Us </a></li>
+          <li><a href="methods.html"> Methods </a></li>
+          <li><a href="contact.html"> Contact </a></li>
+        </ul>
+      </div>
+      <div class="welcome">
+        <div class="welcomeContent">
+          <div class="logo" id ="bigLogo">
+            <img src="../imgs/logo_Orange.svg" alt="logo">
+          </div>
+          <div class="title">
+            <h3>methods</h3>
+          </div>
+          <p></p>
+          <p class="description"> Coca-Cola + Skinny Popcorn + A Good Sense of Humor = One CSG Hackathon Under the Belt </p>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
