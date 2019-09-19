@@ -59,10 +59,10 @@
         @media ( max-width: 576px) {
             font-size: 25px;
         }
-        .designer {
+        .rit {
             color: $primary-color;
         }
-        .developer {
+        .student {
             color: $primary-color2;
         }
     }
@@ -119,6 +119,7 @@
 /*-------- Start About Area ------------*/
 
 .about-area {
+    font-size: 1.5em;
     .section-title {
         margin-bottom: 0;
         @media (max-width: 1024px) {
@@ -151,7 +152,6 @@
 /*--------- Start Work Area -------------*/
 
 .work-area {
-    background: $offwhite;
     .row.mb-80 {
         @media (max-width: 1024px) {
             margin-bottom: 30px;
@@ -265,12 +265,10 @@
 
 //--------- start job  area -------------//
 .job-area {
-    &.offwhite {
-        background: $offwhite;
-    }
+	background: $offwhite;
 }
 .single-job {
-    background-color: $offwhite;
+	background: $white;
     padding: 40px 30px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -313,7 +311,6 @@
     }
     &:hover {
         background: $primary-color2;
-        cursor: pointer;
         color: $white;
         .top-left {
             h4 {

@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Kenedy Personal</title>
+	<title>Oliver Alonzo</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
@@ -48,27 +48,25 @@
 		<div class="container main-menu">
 			<div class="row align-items-center d-flex">
 				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+					<a href="#"><img src="img/logo.png" alt="" title="" /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li class=""><a class="active" href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li class="menu-has-children"><a href="#">Pages</a>
+
+						<li><a href="#about">About</a></li>
+						<li><a href="#publications">Publications</a></li>
+						<li><a href="#projects">Projects</a></li>
+
+						<!-- Sample Dropdown -->
+						<!-- <li class="menu-has-children"><a href="#">Pages</a>
 							<ul>
 								<li><a href="elements.html">Elements</a></li>
 								<li><a href="contact.html">Contact</a></li>
 								<li><a href="services.html">Service</a></li>
 								<li><a href="portfolio-details.html">Portfolio Details</a></li>
 							</ul>
-						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
-							<ul>
-								<li><a href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
-							</ul>
-						</li>
+						</li> -->
+						<!-- End Sample Dropdown -->
 					</ul>
 				</nav>
 			</div>
@@ -78,24 +76,27 @@
 
 
 	<!-- start banner Area -->
-	<section class="home-banner-area">
+	<section class="home-banner-area" id="home">
 		<div class="container">
 			<div class="row fullscreen d-flex align-items-center">
 				<div class="banner-content col-lg-6 col-md-12 justify-content-center ">
 					<div class="me wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">It's me</div>
-					<h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">Kenedy Jackson</h1>
+					<h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">Oliver Alonzo</h1>
 					<div class="designation mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.1s">
-						Senior Creative
-						<span class="designer">Designer</span>
-						and Content
-						<span class="developer">Developer</span>
+						PhD Student in
+						<span class="student">Computing & Information Sciences </span>
+						at
+						<span class="rit"> RIT </span>
 					</div>
-					<a href="#" class="primary-btn" data-text="Hire Me">
-						<span>H</span>
-						<span>i</span>
-						<span>r</span>
-						<span>e</span>
-						<span> </span>
+					<a href="mailto:oa7652@rit.edu" class="primary-btn" data-text="Contact Me">
+						<span>C</span>
+						<span>o</span>
+						<span>n</span>
+						<span>t</span>
+						<span>a</span>
+						<span>c</span>
+						<span>t</span>
+						<span></span>
 						<span>M</span>
 						<span>e</span>
 					</a>
@@ -115,19 +116,19 @@
 			<div class="brand-wrap">
 				<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
 					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b1.png" alt=""></a>
+						<a target="_blank" href="/CV.pdf"><img class="mx-auto" src="img/brand/cv.png" alt=""></a>
 					</div>
 					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b2.png" alt=""></a>
+						<a target="_blank" href="/resume/"><img class="mx-auto" src="img/brand/resume.png" alt=""></a>
 					</div>
 					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b3.png" alt=""></a>
+						<a target="_blank" href="https://www.linkedin.com/in/oliver-alonzo/"><img class="mx-auto" src="img/brand/linkedin.png" alt=""></a>
 					</div>
 					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b4.png" alt=""></a>
+						<a target="_blank" href="https://github.com/oliveralonzo"><img class="mx-auto" src="img/brand/github.png" alt=""></a>
 					</div>
 					<div class="col single-brand">
-						<a href="#"><img class="mx-auto" src="img/brand/b5.png" alt=""></a>
+						<a target="_blank" href="pages/scholar.html"><img class="mx-auto" src="img/brand/scholar.png" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -137,72 +138,84 @@
 
 
 	<!-- Start About Area -->
-	<section class="about-area section-gap">
+	<section class="about-area section-gap" id="about">
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6 about-left">
-					<img class="img-fluid" src="img/about-img.jpg" alt="">
-				</div>
-				<div class="col-lg-5 col-md-12 about-right">
+				<div class="col-lg-11 col-md-12 about-right">
 					<div class="section-title">
-						<h2>about myselt</h2>
+						<h2>about myself</h2>
 					</div>
 					<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
 						<p>
-							inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the
-							workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior
-							is often laughed. inappropriate behavior is often laughed off as “boys will be boys,” women face higher.
+							I am a PhD student in the Computing and Information Sciences program at Rochester Institute of Technology.
+							My work focuses on computing accessibility and human computer interaction (HCI).
 						</p>
-						<p>That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often
-							laughed.
+						<p>I am a graduate Research Assistant at the Center for Accessibility and Inclusion Research (CAIR) Lab, where
+							I also serve as the Communications Chair.
+						</p>
+						<h3>Research</h3>
+						<p>
+							My research includes the application of automatic text simplification tools to assist online reading by people who
+							are Deaf or Hard-of-Hearing, as well as tools to assist American Sign Language learners. I focus on the
+							user-centric design and evaluation of such tools, as well as the evaluation metrics of the performance of
+							underlying technologies that power them.
 						</p>
 					</div>
-					<a href="#" class="primary-btn white" data-text="More Info">
-						<span>M</span>
-						<span>o</span>
-						<span>r</span>
-						<span>e</span>
-						<span> </span>
-						<span>I</span>
-						<span>n</span>
-						<span>f</span>
-						<span>o</span>
-					</a>
-					<a href="#" class="primary-btn" data-text="Resume">
-						<span>R</span>
-						<span>e</span>
-						<span>s</span>
-						<span>u</span>
-						<span>m</span>
-						<span>e</span>
-					</a>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- End About Area -->
 
+	<!-- Start Publications Area Area -->
+	<section class="job-area section-gap-top section-gap-bottom-90" id="publications">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-lg-12">
+					<div class="section-title">
+						<h2>Publications</h2>
+						<p>For a full list, please take a look at my <a href="/CV.pdf">CV</a>.</p>
+					</div>
+				</div>
+			</div>
 
-	<!-- Start Work Area Area -->
-	<section class="work-area section-gap-top section-gap-bottom-90" id="work">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>ASSETS '19</h4>
+								<p>Pittsburgh, PA, USA</p>
+							</div>
+							<div class="top-right">
+								<a href="https://assets19.sigaccess.org/program.html#monday" target="_blank" class="primary-btn" data-text="to appear">
+									<span>t</span><span>o</span><span> </span>
+									<span>a</span><span>p</span><span>p</span><span>e</span><span>a</span><span>r</span>
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s">
+							<b>Oliver Alonzo</b>, Abraham Glasser and Matt Huenerfauth. 2019.
+							<b>“Effect of Automatic Sign Recognition Performance on the Usability of Video-Based Search Interfaces for Sign Language Dictionaries”.</b>
+							In Proceedings of the 21st International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '19).
+							ACM, New York, NY, USA. <em>Conference acceptance rate of 26%</em>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Publications Area Area -->
+
+	<!-- Start Projects Area Area -->
+	<section class="work-area section-gap-top section-gap-bottom-90" id="projects">
 		<div class="container">
 			<div class="row d-flex justify-content-between align-items-end mb-80">
 				<div class="col-lg-6">
 					<div class="section-title">
-						<h2>Latest Works</h2>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
-							some for as low as $.17 each.</p>
-					</div>
-				</div>
-
-				<div class="col-lg-6">
-					<div class="filters">
-						<ul>
-							<li class="active" data-filter=".all">All Categories</li>
-							<li data-filter=".branding">Branding</li>
-							<li data-filter=".creative">Creative Work</li>
-							<li data-filter=".web-design">Web Design</li>
-						</ul>
+						<h2>Projects</h2>
+						<p>These are the projects I have made contributions to, either by leading the entire project or
+							contributing to a specific study. To learn more, click on a project! </p>
 					</div>
 				</div>
 			</div>
@@ -213,387 +226,36 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w1.jpg" alt="">
+								<img class="image img-fluid" src="img/work/nsf-read.jpg" alt="">
 							</div>
 							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
+								<h4>Reading Assistance for DHH Technology Workers</h4>
 							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design branding wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w2.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w3.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w6.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
+							<a class="overlay" target="_blank" href="http://cair.rit.edu/projects.html#simplify"></a>
 						</div>
 					</div>
 					<div class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp" data-wow-duration="2s">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w4.jpg" alt="">
+								<img class="image img-fluid" src="img/work/nsf-search.jpg" alt="">
 							</div>
 							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
+								<h4>Video-Based Search for ASL Dictionaries</h4>
 							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w5.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
+							<a class="overlay" target="_blank" href="http://cair.rit.edu/projects.html#dictionary"></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- End Work Area Area -->
-
-
-	<!-- Start Job History Area Area -->
-	<section class="job-area section-gap-top section-gap-bottom-90">
-		<div class="container">
-			<div class="row d-flex">
-				<div class="col-lg-12">
-					<div class="section-title">
-						<h2>Job History</h2>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
-							some for as low as $.17 each.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="single-job">
-						<div class="top-sec d-flex justify-content-between">
-							<div class="top-left">
-								<h4>Senior Creative Design</h4>
-								<p>Old Bird IT, New Yorkt</p>
-							</div>
-							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
-									<span>J</span><span>u</span><span>l</span>
-									<span>'</span><span>1</span><span>5</span>
-									<span>t</span><span>o</span>
-									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
-								</a>
-							</div>
-						</div>
-						<div class="bottom-sec wow fadeIn" data-wow-duration="2s">
-							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
-							that there are millions of people out of the field there.
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-6">
-					<div class="single-job">
-						<div class="top-sec d-flex justify-content-between">
-							<div class="top-left">
-								<h4>Senior Visualiser</h4>
-								<p>Old Bird IT, New Yorkt</p>
-							</div>
-							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
-									<span>J</span><span>u</span><span>l</span>
-									<span>'</span><span>1</span><span>5</span>
-									<span>t</span><span>o</span>
-									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
-								</a>
-							</div>
-						</div>
-						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
-							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
-							that there are millions of people out of the field there.
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-6">
-					<div class="single-job">
-						<div class="top-sec d-flex justify-content-between">
-							<div class="top-left">
-								<h4>Junior Visualiser</h4>
-								<p>Old Bird IT, New Yorkt</p>
-							</div>
-							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
-									<span>J</span><span>u</span><span>l</span>
-									<span>'</span><span>1</span><span>5</span>
-									<span>t</span><span>o</span>
-									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
-								</a>
-							</div>
-						</div>
-						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
-							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
-							that there are millions of people out of the field there.
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-6">
-					<div class="single-job">
-						<div class="top-sec d-flex justify-content-between">
-							<div class="top-left">
-								<h4>Intern Designer</h4>
-								<p>Old Bird IT, New Yorkt</p>
-							</div>
-							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Jul '15 to Present">
-									<span>J</span><span>u</span><span>l</span>
-									<span>'</span><span>1</span><span>5</span>
-									<span>t</span><span>o</span>
-									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
-								</a>
-							</div>
-						</div>
-						<div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
-							All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
-							that there are millions of people out of the field there.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Job Historyt Area Area -->
-
-
-	<!-- Start Service Area -->
-	<section class="service-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="section-title">
-						<h2>Service Offers</h2>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
-							some for as low as $.17 each.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="1s">
-						<span class="lnr lnr-screen"></span>
-						<h4>
-							<span>Web</span> Design
-						</h4>
-						<p>If you’re looking blank casvsettes on the web, you may confuse.</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-						<span class="lnr lnr-laptop-phone"></span>
-						<h4><span>Application</span> Development
-						</h4>
-						<p>If you’re looking blank casvsettes on the web, you may confuse.</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-						<span class="lnr lnr-database"></span>
-						<h4><span>Web</span> Development
-						</h4>
-						<p>If you’re looking blank casvsettes on the web, you may confuse.</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-						<span class="lnr lnr-chart-bars"></span>
-						<h4><span>Web</span> Development
-						</h4>
-						<p>If you’re looking blank casvsettes on the web, you may confuse.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Service Area -->
-
-
-	<!-- Start Testimonials Area -->
-	<section class="testimonials_area section-gap">
-		<div class="container">
-			<div class="testi_slider owl-carousel">
-				<div class="item">
-					<div class="testi_item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testi_item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testi_item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Testimonials Area -->
-
-
-	<!-- Start Contact Area -->
-	<section class="contact-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="contact-title">
-						<h2>Contact Me</h2>
-						<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see
-							some for as low as $.17 each.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row mt-80">
-				<div class="col-lg-4 col-md-4">
-					<div class="contact-box">
-						<h4>+44 2365 654 8962</h4>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="contact-box">
-						<h4>information@colorlib.com</h4>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="contact-box">
-						<h4>kenedyjackson.me</h4>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<a href="#" class="primary-btn mt-50" data-text="Hire Me">
-						<span>H</span>
-						<span>i</span>
-						<span>r</span>
-						<span>e</span>
-						<span> </span>
-						<span>M</span>
-						<span>e</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Contact Area -->
-
+	<!-- End Projects Area Area -->
 
 	<!-- start footer Area -->
 	<footer class="footer-area">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-12">
-					<div class="footer-top flex-column">
-						<div class="footer-logo">
-							<a href="#">
-								<img src="img/logo.png" alt="">
-							</a>
-							<h4>Follow Me</h4>
-						</div>
-						<div class="footer-social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
+
 			<div class="row footer-bottom justify-content-center">
 				<p class="col-lg-8 col-sm-12 footer-text">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

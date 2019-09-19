@@ -10,10 +10,10 @@ $(document).ready(function () {
     $(".fullscreen").css("height", window_height)
     $(".fitscreen").css("height", fitscreen);
 
-    //------- Wow JS Initialized --------// 
+    //------- Wow JS Initialized --------//
     new WOW().init();
 
-    //------- Go to Top --------// 
+    //------- Go to Top --------//
     $(window).on("scroll", function () {
         if ($(this).scrollTop() > 100) {
             $('#header1').addClass('header-scrolled1');
@@ -34,7 +34,7 @@ $(document).ready(function () {
         return false;
     });
 
-    //------- Niceselect  js --------//  
+    //------- Niceselect  js --------//
 
     if (document.getElementById("default-select")) {
         $('select').niceSelect();
@@ -43,12 +43,12 @@ $(document).ready(function () {
         $('select').niceSelect();
     };
 
-    //------- Pre Loader --------//  
+    //------- Pre Loader --------//
     $(window).on('load', function () {
         $(".preloader-area").delay(200).fadeOut(500);
     })
 
-    //------- Lightbox  js --------//  
+    //------- Lightbox  js --------//
     $('.img-gal').magnificPopup({
         type: 'image',
         gallery: {
@@ -65,7 +65,7 @@ $(document).ready(function () {
         fixedContentPos: false
     });
 
-    //------- Filter  js --------//  
+    //------- Filter  js --------//
     $(window).on("load", function () {
         $('.filters ul li').on("click", function () {
             $('.filters ul li').removeClass('active');
@@ -89,7 +89,7 @@ $(document).ready(function () {
         };
     });
 
-    //------- Accordion  js --------//  
+    //------- Accordion  js --------//
 
     jQuery(document).ready(function ($) {
 
@@ -102,7 +102,7 @@ $(document).ready(function () {
         }
     });
 
-    //------- Circle Chart  js --------//  
+    //------- Circle Chart  js --------//
 
     if (document.getElementById("skills")) {
 
@@ -152,7 +152,7 @@ $(document).ready(function () {
 
     };
 
-    //------- Superfist nav menu  js --------//  
+    //------- Superfist nav menu  js --------//
 
     $('.nav-menu').superfish({
         animation: {
@@ -161,7 +161,7 @@ $(document).ready(function () {
         speed: 400
     });
 
-    //------- Mobile Nav  js --------//  
+    //------- Mobile Nav  js --------//
 
     if ($('#nav-menu-container').length) {
         var $mobile_nav = $('#nav-menu-container').clone().prop({
@@ -202,7 +202,7 @@ $(document).ready(function () {
         $("#mobile-nav, #mobile-nav-toggle").hide();
     }
 
-    //------- Smooth Scroll  js --------//  
+    //------- Smooth Scroll  js --------//
 
     $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -263,7 +263,7 @@ $(document).ready(function () {
 
     });
 
-    //------- Header Scroll Class  js --------//  
+    //------- Header Scroll Class  js --------//
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -311,7 +311,7 @@ $(document).ready(function () {
         })
     }
 
-    //------- Timer Countdown  js --------//  
+    //------- Timer Countdown  js --------//
 
     if (document.getElementById("count")) {
 
@@ -346,7 +346,7 @@ $(document).ready(function () {
 
     }
 
-    //------- Google Map  js --------//  
+    //------- Google Map  js --------//
 
     if (document.getElementById("map")) {
         google.maps.event.addDomListener(window, 'load', init);
@@ -482,7 +482,7 @@ $(document).ready(function () {
         }
     }
 
-    //------- Mailchimp js --------//  
+    //------- Mailchimp js --------//
 
     // $(document).ready(function () {
     //     $('#mc_embed_signup').find('form').ajaxChimp();

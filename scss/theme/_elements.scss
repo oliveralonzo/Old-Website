@@ -41,8 +41,12 @@ $disable: (#222222, .3);
 
 
 
-b,sup, sub, u, del {
+a, sup, sub, u, del {
 	color: $primary;
+}
+a:hover {
+	color: $primary;
+	opacity: .5;
 }
 h1 {
 	font-size: 36px;
@@ -182,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 		color: $success;
 		border: 1px solid $success;
 		background: $white;
-		
+
 		&:hover {
 			color: $white;
 			background: $success;
@@ -203,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 		color: $info;
 		border: 1px solid $info;
 		background: $white;
-		
+
 		&:hover {
 			color: $white;
 			background: $info;
