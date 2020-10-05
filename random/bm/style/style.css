@@ -1,9 +1,9 @@
 body {
 	margin: 0;
+	background-color: #000;
 }
 
 .site {
-	background-color: #000;
 	height: auto;
 	padding-bottom: 15vh;
 }
